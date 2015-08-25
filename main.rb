@@ -1,5 +1,6 @@
 puts "hello world!"
 
 
-my_hash
+my_hash{}
+
 
