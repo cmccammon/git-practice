@@ -4,6 +4,9 @@ def multiply(first, last)# argument list for method
   first * last #function body
 end
 
+def check_age(x)
+
+
 def double(x)
   x * 2
 end
