@@ -1,10 +1,14 @@
-#system ('clear')
+# asks the user their age. Given age is tested and the right lines and printed
+
+
+
+system ('clear')
 #loop do
   def check_age()
     loop do
       print "How old are you? or q to quit>"#ask the user their age
       response_age = gets.chomp.to_i
-      if response_age <= 18
+      if response_age <= 18 && response_age >= 1
         puts "Sorry you can't do anything fun"
       end
       if response_age >= 18 #&& response_age <= 20
