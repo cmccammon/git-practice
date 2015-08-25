@@ -1,5 +1,4 @@
-a = 10
-b = 12
+
 
 def multiply(first, last)# argument list for method
   first * last #function body
