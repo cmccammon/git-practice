@@ -5,18 +5,21 @@
     response_age = gets.chomp.to_i
     if response_age <= 18
       puts "Sorry you can't do anything fun"
-    elsif response_age >= 18 && response_age <= 20
+    end
+    if response_age >= 18 && response_age <= 20
       puts "You can vote and smoke(but really, don't smoke)!"
-    elsif response_age >= 21 && response_age <= 24
+    end
+    if response_age >= 21 && response_age <= 24
       puts "You can enjoy an alcoholic beverage"
-    elsif response_age >= 25
+    end
+    if response_age >= 25
       puts "You can rent a car too!"
+    end
     else
       puts "this not an age"
     end
   end
   check_age
-
 
 #end
 
